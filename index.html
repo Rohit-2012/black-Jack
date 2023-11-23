@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rohit Kirti" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/128/3401/3401551.png"
+      type="image/x-icon"
+    />
+    <title>Black Jack</title>
+  </head>
+  <body>
+    <h1 class="main-heading">BLACK JACK</h1>
+    <section class="game-container">
+      <div class="player-details">
+        <p id="player-el">Player:</p>
+        <p id="credits-el">Credits: ₹</p>
+      </div>
+      <div class="game-area">
+        <p id="message-el">Do you want to draw cards?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
